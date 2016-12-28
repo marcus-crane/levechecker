@@ -1,0 +1,355 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del,
+dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup,
+tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form,
+label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, figure, figcaption, footer,
+header, hgroup, menu, nav, output, ruby, section, summary, time, mark,
+audio, video {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+body {
+	overflow: hidden;
+}
+
+#quotes {
+	position: absolute;
+	top: 5;
+	left: 55;
+	z-index: 999;
+}
+
+#wrap {
+	overflow: hidden;
+	width: 100%;
+}
+
+#sidebar {
+	height: 100%;
+	position: fixed;
+	z-index: 200;
+}
+
+#sidebar li {
+	border-top: 1px solid #303236;
+	position: relative;
+	width: 240px;
+}
+
+#sidebar li a:last-child {
+	border-top: 1px solid #303236;
+	border-bottom: 1px solid #303236;
+}
+
+#sb-wrap {
+	background: #191b1f;
+	color: #fff;
+	height: 100%;
+	min-height: 760px;
+	position: relative;
+	width: 240px;
+	z-index: 100;
+}
+
+#nav li {
+	border-top: 1px solid #303236;
+	list-style-type: none;
+	position: relative;
+}
+
+#nav li .invert {
+	background: #191b1f;
+	cursor: pointer;
+	height: 59px;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+#nav h1 {
+	height: 205px;
+	margin-bottom: 65px;
+	width: 240px;
+}
+
+#nav a {
+	text-decoration: none;
+}
+
+#nav li a,#nav li a img {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#nav li a:hover {
+	opacity: 0.7;
+}
+
+#nav li#container1 {
+	background: url("../images/nav1.png") no-repeat;
+}
+
+#nav li#container2 {
+	background: url("../images/nav1.png") no-repeat;
+}
+
+#nav li#container3 {
+	background: url("../images/nav1.png") no-repeat;
+}
+
+#nav li#container4 {
+	background: url("../images/nav1.png") no-repeat;
+}
+
+footer {
+	bottom: 0;
+	color: rgb(255, 255, 255);
+	display: block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	position: absolute;
+}
+
+#notcopyright {
+	color: #555;
+	font-size: 10px;
+	letter-spacing: 1px;
+	padding: 28px 0;
+	text-align: center;
+	width: 240px;
+}
+
+#status {
+	margin-left: 13%;
+	width: 160px;
+}
+
+#notcopyright {
+	padding-top: 16px;
+}
+
+#notcopyright a {
+	color: white;
+	text-decoration: none;
+}
+
+#main {
+	margin-left: 240px;
+	min-width: 960px;
+	position: relative;
+	z-index: 0;
+}
+
+h1 img {
+	opacity: 1;
+}
+
+h1 img:hover {
+	opacity: 0.7;
+}
+
+h1 {
+	margin-bottom: 70px;
+}
+
+#main h2 {
+	width: 350px;
+}
+
+#main h2 .choose {
+	width: 425px;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+#main .float-left {
+	float: left;
+	margin: 200px 0 0 100px;
+}
+
+#main .float-right {
+	float: right;
+	margin: 200px 100px 0 0;
+	text-align:center;
+}
+
+#main #first .float-right {
+	margin: 150px 120px 0 0px;
+	text-align: right;
+}
+
+#classes {
+	background: url(https://s3.amazonaws.com/ooomf-com-files/hBd6EPoQT2C8VQYv65ys_White%20Sands.jpg) 50% 0 no-repeat fixed;
+	color: black;
+	height: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+#levels {
+	background: url(https://s3.amazonaws.com/ooomf-com-files/STzPBJUsSza3mzUxiplj_DSC09775.JPG) 50% 0 no-repeat fixed;
+	color: black;
+	height: 1080px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0;
+}
+
+#main .story {
+	margin: 0 auto;
+	overflow: auto;
+	width: 100%
+}
+
+#main .story .float-left, .story .float-right {
+	padding: 100px 0 0;
+	position: relative;
+	width: 300px;
+}
+
+.story h2 {
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 36pt;
+	font-weight: 800;
+}
+
+.story p {
+	color: black;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14pt;
+	font-weight: 400;
+}
+
+/** Test Navbar No Img **/
+
+
+
+#nav p.menu {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12pt;
+	font-weight: 300;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+/*** Disciple of Hand Icons ***/
+
+#alc {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/7/71/Alchemist_Icon_8.png);
+}
+
+#alc:hover {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/0/0f/Alchemist_Icon_1.png);
+}
+
+#arm {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/0/04/Armorer_Icon_8.png);
+}
+
+#bsm {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/d/d4/Blacksmith_Icon_8.png);
+}
+
+#crp {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/0/00/Carpenter_Icon_8.png);
+}
+
+#cul {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/0/0e/Culinarian_Icon_8.png);
+}
+
+#gsm {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/4/49/Goldsmith_Icon_8.png);
+}
+
+#ltw {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/c/c9/Leatherworker_Icon_8.png);
+}
+
+#wvr {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/a/a6/Weaver_Icon_8.png);
+}
+
+/*** Disciple of Land Icons ***/
+
+#btn {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/3/31/Botanist_Icon_8.png);
+}
+
+#fsh {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/7/74/Fisher_Icon_8.png);
+}
+
+#min {
+	background-image: url(http://ffxiv.gamerescape.com/w/images/4/41/Miner_Icon_8.png);
+}
+
+h3 {
+	font-size: 12px;
+	text-align: center;
+}
+
+#doh {
+	height: 70px;
+	margin-top: 20px;
+	width: 460px;
+}
+
+#dol {
+	height: 70px;
+	width: 160px;
+}
+
+.class {
+	height: 32px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 32px;
+}
+
+.infoholder {
+	float: left;
+	padding-right: 20px;
+}
+
+select {
+	font: Verdana;
+}
+
+optgroup {
+	font-style: italic;
+}
+
+#doh > .infoholder:last-child {
+	padding-right: 0;
+}
+
+#dol > .infoholder:last-child {
+	padding-right: 0;
+}
+
+#split {
+	width: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+	clear: both;
+}
+
+#alc, #arm, #crp, #gsm, #ltw, #wvr, #fsh {
+	opacity: 0.7;
+}

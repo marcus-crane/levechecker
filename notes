@@ -1,0 +1,92 @@
+<html>
+<head>
+	<title>Leve Data</title>
+</head>
+<body>
+	<h1>Levequests</h1>
+
+	<h2>Fisher</h2>
+
+	<h3>Level 10</h3>
+	<p id="title">Go Ahead and Dig In</p>
+	<p id="exp">30282</p>
+	<p id="gil">322</p>
+	<p id="reward">Sinking Minnow</p>
+	<p id="required">Indigo Herring</p>
+	<p id="quantity">x3</p>
+	<p id="deliver-to">Costa del Sol</p>
+
+	<h3>Level 30</h3>
+	<p id="title">Just Call Me Late for Dinner</p>
+	<p id="exp">30282</p>
+	<p id="gil">322</p>
+	<p id="reward">Sinking Minnow</p>
+	<p id="required">Indigo Herring</p>
+	<p id="quantity">x3</p>
+	<p id="deliver-to">Costa del Sol</p>
+
+	<p id="title">The Blue Period</p>
+	<p id="exp">14725</p>
+	<p id="gil">318</p>
+	<p id="reward">Sinking Minnow</p>
+	<p id="reward-quantity">3</p>
+	<p id="required">Indigo Herring</p>
+	<p id="quantity">x3</p>
+	<p id="deliver-to">Costa del Sol</p>
+</body>
+</body>
+</html>
+
+130 gil
+4 fire shards
+7698 exp
+
+264 gil
+4 fire shards
+15396
+
+class
+level
+title
+exp
+gil
+reward1
+reward2
+reward3
+reward4
+itemrequired
+quantity
+deliverto
+
+botanist
+
+location?
+time limit?
+
+evaluation bonus
+
+320 ~ +25%
+303 ~ +10%
+286 ~ +5%
+
+Completed 0/8
+
+Evaluation
+
+Botanist
+25
+Over the Underbrush
+9680
+Cordial
+1
+Nyall
+Quarrymill
+South Shroud
+
+We Do This The Hard Way
+
+160 ~ +25
+152 ~ +10
+143 ~ +5
+
+4320 126 32 W/Shards
